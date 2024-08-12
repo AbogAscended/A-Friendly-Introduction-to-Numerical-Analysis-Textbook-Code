@@ -1,0 +1,1 @@
+function y = d2d ( x, y, t )y = 0;

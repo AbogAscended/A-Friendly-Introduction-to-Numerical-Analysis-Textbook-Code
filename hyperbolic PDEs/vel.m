@@ -1,0 +1,1 @@
+function y = vel ( x )y = 2.0 * ( 1 + 0.8 * exp(-x/5) * cos (1.7*pi*x/5 ) );%y = x;

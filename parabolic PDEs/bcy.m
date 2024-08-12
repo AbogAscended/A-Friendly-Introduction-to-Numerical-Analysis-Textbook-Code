@@ -1,0 +1,1 @@
+function [uc, ud] = bcy ( x, t )uc = 0;ud = x;

@@ -1,0 +1,1 @@
+function [ ua, ub ] = bc ( t )ua = 0;ub = 0;

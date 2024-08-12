@@ -1,0 +1,1 @@
+function y = a ( t, x, u )y = 10;

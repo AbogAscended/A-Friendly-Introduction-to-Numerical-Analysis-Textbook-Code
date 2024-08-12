@@ -1,0 +1,1 @@
+function y = s2d ( x, y, t )y = 0;

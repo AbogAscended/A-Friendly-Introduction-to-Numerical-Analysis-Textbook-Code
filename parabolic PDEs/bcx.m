@@ -1,0 +1,1 @@
+function [ua, ub] = bcx ( y, t )ua = 0;ub = y;

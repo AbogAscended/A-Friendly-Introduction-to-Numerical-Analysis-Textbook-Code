@@ -1,0 +1,1 @@
+function [y, yt, yx] = gp ( t, x, u )y = 0;yt = 0;yx = 0;

@@ -1,0 +1,1 @@
+function [pa, qa, ra, p, q, r] = bcnd2 ( t )%alpha = 20 + 80 * ( 1 - exp(-t/10) );%p = 20;%q = 401; %r = 400;pa = 50;qa = -401;ra = 1000;p = 50;q = 401;r = 1000;

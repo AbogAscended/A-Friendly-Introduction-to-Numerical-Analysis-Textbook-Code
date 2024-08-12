@@ -1,0 +1,1 @@
+function y = g ( t, x, u )y = -0.0036*u;

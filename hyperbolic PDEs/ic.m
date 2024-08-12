@@ -1,0 +1,1 @@
+function [f, g] = ic ( x )if ( 0 <= x & x <= 3 )   f = x/6;else   f = (6-x)/6;end;g = x*(x-6);

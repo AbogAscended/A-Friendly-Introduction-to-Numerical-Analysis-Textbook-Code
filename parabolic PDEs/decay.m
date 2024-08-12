@@ -1,0 +1,1 @@
+function y = decay ( x, t )y = 0;

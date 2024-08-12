@@ -1,0 +1,1 @@
+function y = bcr ( t )y=-1;

@@ -1,0 +1,1 @@
+function [ua, ub] = bc ( t )%if ( t <= 100 )%   ua = 110*sin(pi*t/50);%else   ua = 0;%end;ub = 0;

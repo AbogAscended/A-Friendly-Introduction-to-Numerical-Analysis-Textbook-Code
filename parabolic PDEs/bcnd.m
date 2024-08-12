@@ -1,0 +1,1 @@
+function [alpha, p, q, r] = bcnd ( t )%alpha = 20 + 80 * ( 1 - exp(-t/10) );%p = 20;%q = 401; %r = 400;%alpha = 0;%p = 4;%q = 1;%r = 4 + 2*t^4;alpha = -100/(pi*150);p = 0;q = 1;r = 0;
