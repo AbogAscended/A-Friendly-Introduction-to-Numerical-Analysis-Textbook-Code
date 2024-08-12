@@ -1,1 +1,0 @@
-function overlay ( f, xi, yi )n = length ( xi );m = length ( yi );if ( n ~= m )   disp ( 'number of ordinates and number of function values must be equal' )   returnendxval = linspace ( min(xi), max(xi), 250 );[p c] = size ( f );if ( p == 1 )   yval = polyval ( f, xval );else   yval = spline_eval ( f, xval );endplot ( xval, yval, xi, yi, '*' );  box off
