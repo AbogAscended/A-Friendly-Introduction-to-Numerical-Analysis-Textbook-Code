@@ -1,1 +1,0 @@
-function y = adapt ( f, a, b, eps )sab = simp ( f, a, b, 2 );c = ( a + b ) / 2;sac = simp ( f, a, c, 2 );scb = simp ( f, c, b, 2 );if ( abs(sac+scb-sab)/10 < eps )   y = 9;   return;else   y1 = adapt ( f, a, c, eps/2 );    y2 = adapt ( f, c, b, eps/2 );   y = y1 + y2 + 9;   returnend
