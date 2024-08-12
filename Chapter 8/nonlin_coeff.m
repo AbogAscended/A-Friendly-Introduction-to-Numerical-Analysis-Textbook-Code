@@ -1,0 +1,1 @@
+function [f, fy, fyp] = nonlin_coeff ( x, y, yp )f = -2*y*y - 4*x*y*yp;fy = -4*y - 4*x*yp;fyp = -4*x*y;%f = -y + y^2;%fy = -1 + 2*y;%fyp = 0;

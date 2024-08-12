@@ -1,0 +1,1 @@
+function y = RHS ( x, u, up )%y = -2*u^(1/2) * ( 1 - u^(1/2) );B = 6.0;  phisq = 0.25;  gamma = 30.0;y = -B * phisq * ( 1 - u/B ) * exp( gamma*u / ( gamma + u ) );

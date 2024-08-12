@@ -1,0 +1,1 @@
+function [p, pp, q, r] = sl_coeff ( x )%if ( x == 0 ) p = 1; else p=x^2; end%if ( x == 0 ) pp = 0; else pp = 2*x; end%q = 0;%if ( x == 0 ) r = 1/3; else r=p; endp = 1;pp = 0; q = - x*x;r = 1;
